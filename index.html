@@ -8,14 +8,22 @@
 	<title>Carta Misteriosa</title>
 </head>
 <body>
+  <header>
+    <h1>Carta Misteriosa!</h1>
+  </header>
 	<main>
 		<section id="inputs-section">
 			<input id="carta-texto" type="text">
-			<button id="criar-carta"></button>
+		  <button id="criar-carta">Gerar carta</button>
 		</section>
-		<section id="main-text-section">
-			<p id="carta-contador">Palavras geradas: 0</p>
-      <p id="carta-gerada">Por favor, digite o conteúdo da carta.</p>
+		<section id="info-section">
+      <div id="word-count-line">
+        <p>Palavras geradas: </p>
+        <p id="carta-contador">0</p>
+      </div>
+    </section>
+    <section id="main-text-section">
+			<p id="carta-gerada">Por favor, digite o conteúdo da carta</p>
 		</section>
 	</main>
 	<script src="script.js"></script>
