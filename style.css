@@ -14,7 +14,7 @@ body {
 
 .newspaper {
   background-color: antiquewhite;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Times New Roman, Times, serif;
   font-weight: 700;
 }
 
@@ -70,7 +70,7 @@ section {
 
 #info-section {
   margin: 5px;
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
   justify-content: center;
 }
